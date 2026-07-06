@@ -43,7 +43,7 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-<img src="" title="Video Walkthrough" alt="Video Walkthrough" />
+<img src="https://github.com/AmgainSudip/PokemonDashboard/blob/main/src/walkthrough.gif" title="Video Walkthrough" alt="Video Walkthrough" />
 
 GIF created with **LiceCAP**
 
