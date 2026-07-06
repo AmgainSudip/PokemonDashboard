@@ -1,16 +1,56 @@
-# React + Vite
+# Web Development Project 5 - Pokémon Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Submitted by: **Sudip Amgain**
 
-Currently, two official plugins are available:
+This web app is an interactive dashboard that displays Pokémon data fetched from the PokéAPI. Users can explore Pokémon information through summary statistics, search by name, and filter the displayed Pokémon by type.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Time spent: **3 hours** spent in total
 
-## React Compiler
+## Required Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The following **required** functionality is completed:
 
-## Expanding the Oxlint configuration
+* [x] **The site has a dashboard displaying a list of data fetched using an API call**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+  * [x] The dashboard displays **20 unique Pokémon**, one per row.
+  * [x] Each row displays multiple attributes: **Name**, **Type**, **Height**, and **Weight**.
+* [x] **The `useEffect()` React hook and `async`/`await` syntax are used** to fetch data from the API.
+* [x] **The app dashboard includes at least three summary statistics about the data**
+
+  * [x] Total number of Pokémon displayed
+  * [x] Average Pokémon height
+  * [x] Average Pokémon weight
+* [x] **A search bar allows the user to search for an item in the fetched data**
+
+  * [x] The search bar filters Pokémon by name.
+  * [x] The results update dynamically as the user types.
+* [x] **An additional filter allows the user to restrict displayed items by specified categories**
+
+  * [x] A dropdown filters Pokémon by **Type**.
+  * [x] The filter uses a different attribute than the search bar.
+  * [x] The displayed list updates dynamically whenever the selected type changes.
+
+## Stretch Features
+
+The following **optional** features are implemented:
+
+* [x] Multiple filters can be applied simultaneously (search + type filter).
+* [x] Filters use different input types:
+
+  * Text input (search bar)
+  * Dropdown menu (type filter)
+
+
+## Video Walkthrough
+
+<img src="" title="Video Walkthrough" alt="Video Walkthrough" />
+
+GIF created with **LiceCAP**
+
+
+## License
+
+Copyright 2026 Sudip Amgain
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
